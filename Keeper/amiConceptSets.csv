@@ -1,5 +1,5 @@
 conceptId,conceptName,vocabularyId,conceptSetName,target
-4329847,Myocardial infarction,SNOMED,doi,Disease of interest
+312327,Acute myocardial infarction,SNOMED,doi,Disease of interest
 438172,Atrial septal defect due to and following acute myocardial infarction,SNOMED,complications,Disease of interest
 321318,Angina pectoris,SNOMED,alternativeDiagnosis,Disease of interest
 440417,Pulmonary embolism,SNOMED,alternativeDiagnosis,Disease of interest
