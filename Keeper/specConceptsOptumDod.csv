@@ -1,678 +1,120 @@
-conceptId,conceptName,vocabularyId,conceptSetName,target
-4329847,Myocardial infarction,SNOMED,doi,Disease of interest
-438172,Atrial septal defect due to and following acute myocardial infarction,SNOMED,doi,Disease of interest
-4108680,"Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction",SNOMED,doi,Disease of interest
-4121477,Post-infarction pericarditis,SNOMED,doi,Disease of interest
-4198141,Post infarct angina,SNOMED,doi,Disease of interest
-321318,Angina pectoris,SNOMED,alternativeDiagnosis,Disease of interest
-440417,Pulmonary embolism,SNOMED,alternativeDiagnosis,Disease of interest
-317585,Aortic aneurysm,SNOMED,alternativeDiagnosis,Disease of interest
-314383,Myocarditis,SNOMED,alternativeDiagnosis,Disease of interest
-318800,Gastroesophageal reflux disease,SNOMED,alternativeDiagnosis,Disease of interest
-30753,Esophagitis,SNOMED,alternativeDiagnosis,Disease of interest
-134681,Diffuse spasm of esophagus,SNOMED,alternativeDiagnosis,Disease of interest
-253796,Pneumothorax,SNOMED,alternativeDiagnosis,Disease of interest
-4057432,Mediastinal emphysema,SNOMED,alternativeDiagnosis,Disease of interest
-4192640,Pancreatitis,SNOMED,alternativeDiagnosis,Disease of interest
-4016837,Chondrocostal joint sprain,SNOMED,alternativeDiagnosis,Disease of interest
-4021498,Panic attack,SNOMED,alternativeDiagnosis,Disease of interest
-255848,Pneumonia,SNOMED,alternativeDiagnosis,Disease of interest
-40479589,Takotsubo cardiomyopathy,SNOMED,alternativeDiagnosis,Disease of interest
-4127089,Coronary artery spasm,SNOMED,alternativeDiagnosis,Disease of interest
-312927,Acute cor pulmonale,SNOMED,alternativeDiagnosis,Disease of interest
-40480461,Infarction of lung due to iatrogenic pulmonary embolism,SNOMED,alternativeDiagnosis,Disease of interest
-46272492,Dissection of artery,SNOMED,alternativeDiagnosis,Disease of interest
-258449,Hemopericardium,SNOMED,alternativeDiagnosis,Disease of interest
-4138837,Pericarditis,SNOMED,alternativeDiagnosis,Disease of interest
-318450,Cardiac tamponade,SNOMED,alternativeDiagnosis,Disease of interest
-4091509,Esophageal reflux finding,SNOMED,alternativeDiagnosis,Disease of interest
-201061,Diaphragmatic hernia,SNOMED,alternativeDiagnosis,Disease of interest
-201340,Gastritis,SNOMED,alternativeDiagnosis,Disease of interest
-25844,Ulcer of esophagus,SNOMED,alternativeDiagnosis,Disease of interest
-318186,Achalasia of esophagus,SNOMED,alternativeDiagnosis,Disease of interest
-43020567,Air leaking from lung,SNOMED,alternativeDiagnosis,Disease of interest
-4238808,Empyema of pleura,SNOMED,alternativeDiagnosis,Disease of interest
-4135466,Hemothorax,SNOMED,alternativeDiagnosis,Disease of interest
-441607,Abscess of mediastinum,SNOMED,alternativeDiagnosis,Disease of interest
-4189294,Inflammatory disorder of mediastinum,SNOMED,alternativeDiagnosis,Disease of interest
-4049458,Acute necrosis of pancreas,SNOMED,alternativeDiagnosis,Disease of interest
-4176945,Inflammatory disorder of cartilage,SNOMED,alternativeDiagnosis,Disease of interest
-4145627,Biliary calculus,SNOMED,alternativeDiagnosis,Disease of interest
-192956,Cholecystitis,SNOMED,alternativeDiagnosis,Disease of interest
-4267297,Acute cholangitis,SNOMED,alternativeDiagnosis,Disease of interest
-442077,Anxiety disorder,SNOMED,alternativeDiagnosis,Disease of interest
-436339,Bacterial infection caused by Klebsiella pneumoniae,SNOMED,alternativeDiagnosis,Disease of interest
-4231983,Infection caused by Mycoplasma pneumoniae,SNOMED,alternativeDiagnosis,Disease of interest
-43020424,Hypertensive emergency,SNOMED,alternativeDiagnosis,Disease of interest
-4034235,Tight chest,SNOMED,symptoms,Disease of interest
-4090431,Discomfort,SNOMED,symptoms,Disease of interest
-439418,Indigestion,SNOMED,symptoms,Disease of interest
-194491,Tenderness of epigastric region,SNOMED,symptoms,Disease of interest
-4041664,Difficulty breathing,SNOMED,symptoms,Disease of interest
-4203638,Excessive sweating,SNOMED,symptoms,Disease of interest
-4181178,Night sweats,SNOMED,symptoms,Disease of interest
-4059005,Sweating symptom,SNOMED,symptoms,Disease of interest
-31967,Nausea,SNOMED,symptoms,Disease of interest
-4101344,Finding of vomiting,SNOMED,symptoms,Disease of interest
-315078,Palpitations,SNOMED,symptoms,Disease of interest
-4263255,Irregular heart beat,SNOMED,symptoms,Disease of interest
-4223659,Fatigue,SNOMED,symptoms,Disease of interest
-4223938,Dizziness,SNOMED,symptoms,Disease of interest
-4229392,Giddiness,SNOMED,symptoms,Disease of interest
-441542,Anxiety,SNOMED,symptoms,Disease of interest
-444070,Tachycardia,SNOMED,symptoms,Disease of interest
-4272240,Malaise,SNOMED,symptoms,Disease of interest
-4329041,Pain,SNOMED,symptoms,Disease of interest
-376961,Disturbance of consciousness,SNOMED,symptoms,Disease of interest
-4034235,Tight chest,SNOMED,symptoms,Alternative diagnoses
-439418,Indigestion,SNOMED,symptoms,Alternative diagnoses
-4041664,Difficulty breathing,SNOMED,symptoms,Alternative diagnoses
-315078,Palpitations,SNOMED,symptoms,Alternative diagnoses
-4223938,Dizziness,SNOMED,symptoms,Alternative diagnoses
-4090431,Discomfort,SNOMED,symptoms,Alternative diagnoses
-4229392,Giddiness,SNOMED,symptoms,Alternative diagnoses
-4203638,Excessive sweating,SNOMED,symptoms,Alternative diagnoses
-4181178,Night sweats,SNOMED,symptoms,Alternative diagnoses
-4059005,Sweating symptom,SNOMED,symptoms,Alternative diagnoses
-31967,Nausea,SNOMED,symptoms,Alternative diagnoses
-4101344,Finding of vomiting,SNOMED,symptoms,Alternative diagnoses
-254761,Cough,SNOMED,symptoms,Alternative diagnoses
-4011766,Feeling feverish,SNOMED,symptoms,Alternative diagnoses
-441542,Anxiety,SNOMED,symptoms,Alternative diagnoses
-436817,Feeling nervous,SNOMED,symptoms,Alternative diagnoses
-316814,Hyperventilation,SNOMED,symptoms,Alternative diagnoses
-4086746,Feeling agitated,SNOMED,symptoms,Alternative diagnoses
-79908,Muscle weakness,SNOMED,symptoms,Alternative diagnoses
-4223659,Fatigue,SNOMED,symptoms,Alternative diagnoses
-46271381,Digestive system reflux,SNOMED,symptoms,Alternative diagnoses
-4147190,Gastrointestinal symptom,SNOMED,symptoms,Alternative diagnoses
-4023572,Abdominal bloating,SNOMED,symptoms,Alternative diagnoses
-4152351,"Abdominal distension, gaseous",SNOMED,symptoms,Alternative diagnoses
-194475,Hiccoughs,SNOMED,symptoms,Alternative diagnoses
-4329041,Pain,SNOMED,symptoms,Alternative diagnoses
-376961,Disturbance of consciousness,SNOMED,symptoms,Alternative diagnoses
-4272240,Malaise,SNOMED,symptoms,Alternative diagnoses
-433596,Abnormal sputum,SNOMED,symptoms,Alternative diagnoses
-314754,Wheezing,SNOMED,symptoms,Alternative diagnoses
-4047791,Abnormal body temperature,SNOMED,symptoms,Alternative diagnoses
-377091,Seizure,SNOMED,symptoms,Alternative diagnoses
-4187507,Psychomotor agitation,SNOMED,symptoms,Alternative diagnoses
-4143065,Involuntary movement,SNOMED,symptoms,Alternative diagnoses
-4164648,Slowness and poor responsiveness,SNOMED,symptoms,Alternative diagnoses
-4114624,Coordination problem,SNOMED,symptoms,Alternative diagnoses
-36714126,Difficulty walking,SNOMED,symptoms,Alternative diagnoses
-441417,Incoordination,SNOMED,symptoms,Alternative diagnoses
-4310235,Reduced mobility,SNOMED,symptoms,Alternative diagnoses
-432436,Symbolic dysfunction,SNOMED,symptoms,Alternative diagnoses
-4092743,Unsteady when standing,SNOMED,symptoms,Alternative diagnoses
-75860,Constipation,SNOMED,symptoms,Alternative diagnoses
-1112807,aspirin,RxNorm,drugs,Disease of interest
-1322184,clopidogrel,RxNorm,drugs,Disease of interest
-40163718,prasugrel,RxNorm,drugs,Disease of interest
-40241186,ticagrelor,RxNorm,drugs,Disease of interest
-1302398,ticlopidine,RxNorm,drugs,Disease of interest
-46275677,cangrelor,RxNorm,drugs,Disease of interest
-19047423,abciximab,RxNorm,drugs,Disease of interest
-1322199,eptifibatide,RxNorm,drugs,Disease of interest
-19017067,tirofiban,RxNorm,drugs,Disease of interest
-1367571,heparin,RxNorm,drugs,Disease of interest
-35884360,Heparin Sodium,RxNorm Extension,drugs,Disease of interest
-1301025,enoxaparin,RxNorm,drugs,Disease of interest
-1301065,dalteparin,RxNorm,drugs,Disease of interest
-1315865,fondaparinux,RxNorm,drugs,Disease of interest
-19084670,bivalirudin,RxNorm,drugs,Disease of interest
-1310149,warfarin,RxNorm,drugs,Disease of interest
-1347450,alteplase,RxNorm,drugs,Disease of interest
-19024191,reteplase,RxNorm,drugs,Disease of interest
-19136187,streptokinase,RxNorm,drugs,Disease of interest
-19005977,tenecteplase 50 MG Injection [Tnkase],RxNorm,drugs,Disease of interest
-1353766,propranolol,RxNorm,drugs,Disease of interest
-1307046,metoprolol,RxNorm,drugs,Disease of interest
-1314002,atenolol,RxNorm,drugs,Disease of interest
-1338005,bisoprolol,RxNorm,drugs,Disease of interest
-1346823,carvedilol,RxNorm,drugs,Disease of interest
-902427,timolol,RxNorm,drugs,Disease of interest
-19063575,esmolol,RxNorm,drugs,Disease of interest
-1340128,captopril,RxNorm,drugs,Disease of interest
-1341927,enalapril,RxNorm,drugs,Disease of interest
-1308216,lisinopril,RxNorm,drugs,Disease of interest
-1334456,ramipril,RxNorm,drugs,Disease of interest
-1342001,enalaprilat,RxNorm,drugs,Disease of interest
-1335471,benazepril,RxNorm,drugs,Disease of interest
-1331235,quinapril,RxNorm,drugs,Disease of interest
-1373225,perindopril,RxNorm,drugs,Disease of interest
-1363749,fosinopril,RxNorm,drugs,Disease of interest
-1342439,trandolapril,RxNorm,drugs,Disease of interest
-1347384,irbesartan,RxNorm,drugs,Disease of interest
-1367500,losartan,RxNorm,drugs,Disease of interest
-1308842,valsartan,RxNorm,drugs,Disease of interest
-1351557,candesartan,RxNorm,drugs,Disease of interest
-1317640,telmisartan,RxNorm,drugs,Disease of interest
-40226742,olmesartan,RxNorm,drugs,Disease of interest
-1346686,eprosartan,RxNorm,drugs,Disease of interest
-40235485,azilsartan,RxNorm,drugs,Disease of interest
-970250,spironolactone,RxNorm,drugs,Disease of interest
-1309799,eplerenone,RxNorm,drugs,Disease of interest
-1545958,atorvastatin,RxNorm,drugs,Disease of interest
-1539403,simvastatin,RxNorm,drugs,Disease of interest
-1510813,rosuvastatin,RxNorm,drugs,Disease of interest
-1526475,ezetimibe,RxNorm,drugs,Disease of interest
-1551860,pravastatin,RxNorm,drugs,Disease of interest
-1592085,lovastatin,RxNorm,drugs,Disease of interest
-1549686,fluvastatin,RxNorm,drugs,Disease of interest
-40165636,pitavastatin,RxNorm,drugs,Disease of interest
-1361711,nitroglycerin,RxNorm,drugs,Disease of interest
-1383925,isosorbide dinitrate,RxNorm,drugs,Disease of interest
-1383815,isosorbide,RxNorm,drugs,Disease of interest
-1110410,morphine,RxNorm,drugs,Disease of interest
-1154029,fentanyl,RxNorm,drugs,Disease of interest
-19113045,heparinoids,RxNorm,drugs,Disease of interest
-1337720,dobutamine,RxNorm,drugs,Disease of interest
-1126658,hydromorphone,RxNorm,drugs,Disease of interest
-40241331,rivaroxaban,RxNorm,drugs,Disease of interest
-1309944,amiodarone,RxNorm,drugs,Disease of interest
-1328165,diltiazem,RxNorm,drugs,Disease of interest
-1370109,sotalol,RxNorm,drugs,Disease of interest
-989878,lidocaine,RxNorm,drugs,Disease of interest
-1319998,acebutolol,RxNorm,drugs,Disease of interest
-1314577,nebivolol,RxNorm,drugs,Disease of interest
-932745,bumetanide,RxNorm,drugs,Disease of interest
-942350,torsemide,RxNorm,drugs,Disease of interest
-1307542,mexiletine,RxNorm,drugs,Disease of interest
-46275719,sacubitril,RxNorm,drugs,Disease of interest
-1551803,fenofibrate,RxNorm,drugs,Disease of interest
-1560305,omega-3 acid ethyl esters (USP),RxNorm,drugs,Disease of interest
-37499009,bempedoic acid,RxNorm,drugs,Disease of interest
-46275447,alirocumab,RxNorm,drugs,Disease of interest
-46287466,evolocumab,RxNorm,drugs,Disease of interest
-42874246,icosapent ethyl,RxNorm,drugs,Disease of interest
-1112807,aspirin,RxNorm,drugs,Alternative diagnoses
-1322184,clopidogrel,RxNorm,drugs,Alternative diagnoses
-40241186,ticagrelor,RxNorm,drugs,Alternative diagnoses
-40163718,prasugrel,RxNorm,drugs,Alternative diagnoses
-1302398,ticlopidine,RxNorm,drugs,Alternative diagnoses
-1367571,heparin,RxNorm,drugs,Alternative diagnoses
-19069137,bemiparin,RxNorm,drugs,Alternative diagnoses
-35829525,Heparin Sodium Injectable Solution,RxNorm Extension,drugs,Alternative diagnoses
-1301025,enoxaparin,RxNorm,drugs,Alternative diagnoses
-1301065,dalteparin,RxNorm,drugs,Alternative diagnoses
-1308473,tinzaparin,RxNorm,drugs,Alternative diagnoses
-1310149,warfarin,RxNorm,drugs,Alternative diagnoses
-43013024,apixaban,RxNorm,drugs,Alternative diagnoses
-45892847,edoxaban,RxNorm,drugs,Alternative diagnoses
-40241331,rivaroxaban,RxNorm,drugs,Alternative diagnoses
-40228152,dabigatran etexilate,RxNorm,drugs,Alternative diagnoses
-19113045,heparinoids,RxNorm,drugs,Alternative diagnoses
-1347450,alteplase,RxNorm,drugs,Alternative diagnoses
-19024191,reteplase,RxNorm,drugs,Alternative diagnoses
-19005977,tenecteplase 50 MG Injection [Tnkase],RxNorm,drugs,Alternative diagnoses
-19136187,streptokinase,RxNorm,drugs,Alternative diagnoses
-19017067,tirofiban,RxNorm,drugs,Alternative diagnoses
-1361711,nitroglycerin,RxNorm,drugs,Alternative diagnoses
-1383925,isosorbide dinitrate,RxNorm,drugs,Alternative diagnoses
-1307046,metoprolol,RxNorm,drugs,Alternative diagnoses
-1314002,atenolol,RxNorm,drugs,Alternative diagnoses
-1346823,carvedilol,RxNorm,drugs,Alternative diagnoses
-1353766,propranolol,RxNorm,drugs,Alternative diagnoses
-19063575,esmolol,RxNorm,drugs,Alternative diagnoses
-1386957,labetalol,RxNorm,drugs,Alternative diagnoses
-1322081,betaxolol,RxNorm,drugs,Alternative diagnoses
-1313200,nadolol,RxNorm,drugs,Alternative diagnoses
-1345858,pindolol,RxNorm,drugs,Alternative diagnoses
-1341927,enalapril,RxNorm,drugs,Alternative diagnoses
-1342001,enalaprilat,RxNorm,drugs,Alternative diagnoses
-1340128,captopril,RxNorm,drugs,Alternative diagnoses
-1334456,ramipril,RxNorm,drugs,Alternative diagnoses
-1545958,atorvastatin,RxNorm,drugs,Alternative diagnoses
-1510813,rosuvastatin,RxNorm,drugs,Alternative diagnoses
-1526475,ezetimibe,RxNorm,drugs,Alternative diagnoses
-1539403,simvastatin,RxNorm,drugs,Alternative diagnoses
-1592085,lovastatin,RxNorm,drugs,Alternative diagnoses
-1328165,diltiazem,RxNorm,drugs,Alternative diagnoses
-1307863,verapamil,RxNorm,drugs,Alternative diagnoses
-1318853,nifedipine,RxNorm,drugs,Alternative diagnoses
-19020994,nitroprusside,RxNorm,drugs,Alternative diagnoses
-1177480,ibuprofen,RxNorm,drugs,Alternative diagnoses
-1178663,indomethacin,RxNorm,drugs,Alternative diagnoses
-1101554,colchicine,RxNorm,drugs,Alternative diagnoses
-1551099,prednisone,RxNorm,drugs,Alternative diagnoses
-1506270,methylprednisolone,RxNorm,drugs,Alternative diagnoses
-923645,omeprazole,RxNorm,drugs,Alternative diagnoses
-904453,esomeprazole,RxNorm,drugs,Alternative diagnoses
-929887,lansoprazole,RxNorm,drugs,Alternative diagnoses
-948078,pantoprazole,RxNorm,drugs,Alternative diagnoses
-911735,rabeprazole,RxNorm,drugs,Alternative diagnoses
-43009052,ilaprazole,RxNorm Extension,drugs,Alternative diagnoses
-19039926,dexlansoprazole,RxNorm,drugs,Alternative diagnoses
-961047,ranitidine,RxNorm,drugs,Alternative diagnoses
-953076,famotidine,RxNorm,drugs,Alternative diagnoses
-997276,cimetidine,RxNorm,drugs,Alternative diagnoses
-950696,nizatidine,RxNorm,drugs,Alternative diagnoses
-993631,magnesium oxide,RxNorm,drugs,Alternative diagnoses
-992956,magnesium hydroxide,RxNorm,drugs,Alternative diagnoses
-19035704,calcium carbonate,RxNorm,drugs,Alternative diagnoses
-985247,aluminum hydroxide,RxNorm,drugs,Alternative diagnoses
-1110410,morphine,RxNorm,drugs,Alternative diagnoses
-1126658,hydromorphone,RxNorm,drugs,Alternative diagnoses
-1154029,fentanyl,RxNorm,drugs,Alternative diagnoses
-1124957,oxycodone,RxNorm,drugs,Alternative diagnoses
-1125765,oxymorphone,RxNorm,drugs,Alternative diagnoses
-1746114,piperacillin,RxNorm,drugs,Alternative diagnoses
-1777806,ceftriaxone,RxNorm,drugs,Alternative diagnoses
-1749008,cefpodoxime,RxNorm,drugs,Alternative diagnoses
-1707164,metronidazole,RxNorm,drugs,Alternative diagnoses
-1797513,ciprofloxacin,RxNorm,drugs,Alternative diagnoses
-1713332,amoxicillin,RxNorm,drugs,Alternative diagnoses
-1734104,azithromycin,RxNorm,drugs,Alternative diagnoses
-1750500,clarithromycin,RxNorm,drugs,Alternative diagnoses
-1738521,doxycycline,RxNorm,drugs,Alternative diagnoses
-1742253,levofloxacin,RxNorm,drugs,Alternative diagnoses
-1716903,moxifloxacin,RxNorm,drugs,Alternative diagnoses
-1728416,penicillin G,RxNorm,drugs,Alternative diagnoses
-791967,lorazepam,RxNorm,drugs,Alternative diagnoses
-781039,alprazolam,RxNorm,drugs,Alternative diagnoses
-723013,diazepam,RxNorm,drugs,Alternative diagnoses
-19125106,medazepam,RxNorm,drugs,Alternative diagnoses
-798874,clonazepam,RxNorm,drugs,Alternative diagnoses
-19020021,nitrazepam,RxNorm,drugs,Alternative diagnoses
-739138,sertraline,RxNorm,drugs,Alternative diagnoses
-722031,paroxetine,RxNorm,drugs,Alternative diagnoses
-755695,fluoxetine,RxNorm,drugs,Alternative diagnoses
-797617,citalopram,RxNorm,drugs,Alternative diagnoses
-715939,escitalopram,RxNorm,drugs,Alternative diagnoses
-743670,venlafaxine,RxNorm,drugs,Alternative diagnoses
-715259,duloxetine,RxNorm,drugs,Alternative diagnoses
-733301,buspirone,RxNorm,drugs,Alternative diagnoses
-1335606,disopyramide,RxNorm,drugs,Alternative diagnoses
-708298,midazolam,RxNorm,drugs,Alternative diagnoses
-1318137,nicardipine,RxNorm,drugs,Alternative diagnoses
-19084670,bivalirudin,RxNorm,drugs,Alternative diagnoses
-1383815,isosorbide,RxNorm,drugs,Alternative diagnoses
-46275677,cangrelor,RxNorm,drugs,Alternative diagnoses
-1322199,eptifibatide,RxNorm,drugs,Alternative diagnoses
-1337720,dobutamine,RxNorm,drugs,Alternative diagnoses
-1707687,vancomycin,RxNorm,drugs,Alternative diagnoses
-1315865,fondaparinux,RxNorm,drugs,Alternative diagnoses
-956874,furosemide,RxNorm,drugs,Alternative diagnoses
-1748975,cefepime,RxNorm,drugs,Alternative diagnoses
-1776684,ceftazidime,RxNorm,drugs,Alternative diagnoses
-1736887,linezolid,RxNorm,drugs,Alternative diagnoses
-1709170,meropenem,RxNorm,drugs,Alternative diagnoses
-1338005,bisoprolol,RxNorm,drugs,Alternative diagnoses
-1332418,amlodipine,RxNorm,drugs,Alternative diagnoses
-1335471,benazepril,RxNorm,drugs,Alternative diagnoses
-1308216,lisinopril,RxNorm,drugs,Alternative diagnoses
-1314577,nebivolol,RxNorm,drugs,Alternative diagnoses
-1717327,ampicillin,RxNorm,drugs,Alternative diagnoses
-902427,timolol,RxNorm,drugs,Alternative diagnoses
-1319998,acebutolol,RxNorm,drugs,Alternative diagnoses
-1551860,pravastatin,RxNorm,drugs,Alternative diagnoses
-37499009,bempedoic acid,RxNorm,drugs,Alternative diagnoses
-1551803,fenofibrate,RxNorm,drugs,Alternative diagnoses
-1560305,omega-3 acid ethyl esters (USP),RxNorm,drugs,Alternative diagnoses
-40165636,pitavastatin,RxNorm,drugs,Alternative diagnoses
-46275447,alirocumab,RxNorm,drugs,Alternative diagnoses
-46287466,evolocumab,RxNorm,drugs,Alternative diagnoses
-1125315,acetaminophen,RxNorm,drugs,Alternative diagnoses
-1174888,hydrocodone,RxNorm,drugs,Alternative diagnoses
-1136980,ketorolac,RxNorm,drugs,Alternative diagnoses
-1103314,tramadol,RxNorm,drugs,Alternative diagnoses
-1124300,diclofenac,RxNorm,drugs,Alternative diagnoses
-1150345,meloxicam,RxNorm,drugs,Alternative diagnoses
-1115008,naproxen,RxNorm,drugs,Alternative diagnoses
-1236607,sulindac,RxNorm,drugs,Alternative diagnoses
-1778162,cefuroxime,RxNorm,drugs,Alternative diagnoses
-1759842,clavulanate,RxNorm,drugs,Alternative diagnoses
-1201620,codeine,RxNorm,drugs,Alternative diagnoses
-1195492,etodolac,RxNorm,drugs,Alternative diagnoses
-903963,triamcinolone,RxNorm,drugs,Alternative diagnoses
-906780,metoclopramide,RxNorm,drugs,Alternative diagnoses
-1036228,sucralfate,RxNorm,drugs,Alternative diagnoses
-1836948,tetracycline,RxNorm,drugs,Alternative diagnoses
-1786621,cephalexin,RxNorm,drugs,Alternative diagnoses
-997881,clindamycin,RxNorm,drugs,Alternative diagnoses
-939506,sodium bicarbonate,RxNorm,drugs,Alternative diagnoses
-19097016,"calcium carbonate, precipitated",RxNorm,drugs,Alternative diagnoses
-1717963,ertapenem,RxNorm,drugs,Alternative diagnoses
-1768849,cefaclor,RxNorm,drugs,Alternative diagnoses
-1774470,cefotaxime,RxNorm,drugs,Alternative diagnoses
-725131,mirtazapine,RxNorm,drugs,Alternative diagnoses
-1796458,cefdinir,RxNorm,drugs,Alternative diagnoses
-1747005,cefditoren,RxNorm,drugs,Alternative diagnoses
-1136601,benzonatate,RxNorm,drugs,Alternative diagnoses
-1716721,gemifloxacin,RxNorm,drugs,Alternative diagnoses
-1156378,flurbiprofen,RxNorm,drugs,Alternative diagnoses
-1789276,gatifloxacin,RxNorm,drugs,Alternative diagnoses
-923081,ofloxacin,RxNorm,drugs,Alternative diagnoses
-1550557,prednisolone,RxNorm,drugs,Alternative diagnoses
-1729720,penicillin V,RxNorm,drugs,Alternative diagnoses
-790253,clorazepate,RxNorm,drugs,Alternative diagnoses
-721724,nortriptyline,RxNorm,drugs,Alternative diagnoses
-717607,desvenlafaxine,RxNorm,drugs,Alternative diagnoses
-44507700,vortioxetine,RxNorm,drugs,Alternative diagnoses
-710062,amitriptyline,RxNorm,drugs,Alternative diagnoses
-716968,desipramine,RxNorm,drugs,Alternative diagnoses
-40226742,olmesartan,RxNorm,drugs,Alternative diagnoses
-1317640,telmisartan,RxNorm,drugs,Alternative diagnoses
-4163951,Electrocardiographic procedure,SNOMED,diagnosticProcedures,Disease of interest
-4148369,Angiocardiography,SNOMED,diagnosticProcedures,Disease of interest
-4223020,Cardiac catheterization,SNOMED,diagnosticProcedures,Disease of interest
-2007079,Electrographic monitoring,ICD9Proc,diagnosticProcedures,Disease of interest
-4062856,Examination for suspected cardiovascular disease,SNOMED,diagnosticProcedures,Disease of interest
-42738801,"Imaging supervision, interpretation and report for injection procedure(s) during cardiac catheterization; pulmonary angiography, aortography, and/or selective coronary angiography including venous bypass grafts and arterial conduits (wheth... (Deprecated)",CPT4,diagnosticProcedures,Disease of interest
-42738800,"Imaging supervision, interpretation and report for injection procedure(s) during cardiac catheterization; ventricular and/or atrial angiography (Deprecated)",CPT4,diagnosticProcedures,Disease of interest
-42734805,Injection procedure during cardiac catheterization; for selective coronary angiography (injection of radiopaque material may be by hand) (Deprecated),CPT4,diagnosticProcedures,Disease of interest
-42734804,Injection procedure during cardiac catheterization; for selective left ventricular or left atrial angiography (Deprecated),CPT4,diagnosticProcedures,Disease of interest
-42738799,"Injection procedure during cardiac catheterization; for selective opacification of aortocoronary venous bypass grafts, one or more coronary arteries (Deprecated)",CPT4,diagnosticProcedures,Disease of interest
-42738798,"Injection procedure during cardiac catheterization; for selective opacification of arterial conduits (eg, internal mammary), whether native or used for bypass (Deprecated)",CPT4,diagnosticProcedures,Disease of interest
-42734803,Injection procedure during cardiac catheterization; for selective right ventricular or right atrial angiography (Deprecated),CPT4,diagnosticProcedures,Disease of interest
-2786741,"Measurement of Cardiac Electrical Activity, External Approach",ICD10PCS,diagnosticProcedures,Disease of interest
-2786744,"Measurement of Cardiac Rhythm, External Approach",ICD10PCS,diagnosticProcedures,Disease of interest
-4296597,Cardiovascular stress testing,SNOMED,diagnosticProcedures,Alternative diagnoses
-4020359,Biopsy of pericardium,SNOMED,diagnosticProcedures,Alternative diagnoses
-4057804,Biopsy of heart,SNOMED,diagnosticProcedures,Alternative diagnoses
-42738689,"Esophagus, acid reflux test, with intraluminal pH electrode for detection of gastroesophageal reflux; prolonged recording (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-2313614,"Esophagus, gastroesophageal reflux test; with mucosal attached telemetry pH electrode placement, recording, analysis and interpretation",CPT4,diagnosticProcedures,Alternative diagnoses
-2313613,"Esophagus, gastroesophageal reflux test; with nasal catheter pH electrode(s) placement, recording, analysis and interpretation",CPT4,diagnosticProcedures,Alternative diagnoses
-2006700,Other chest x-ray,ICD9Proc,diagnosticProcedures,Alternative diagnoses
-3049950,XR Chest Single view,LOINC,diagnosticProcedures,Alternative diagnoses
-2792810,Plain Radiography of Chest,ICD10PCS,diagnosticProcedures,Alternative diagnoses
-3052492,XR Chest AP,LOINC,diagnosticProcedures,Alternative diagnoses
-3046366,CT Abdomen and Pelvis,LOINC,diagnosticProcedures,Alternative diagnoses
-42742553,"Hepatobiliary system imaging, including gallbladder when present; with pharmacologic intervention, including quantitative measurement(s) when performed",CPT4,diagnosticProcedures,Alternative diagnoses
-4292405,Collection of sputum,SNOMED,diagnosticProcedures,Alternative diagnoses
-2007191,"Microscopic examination of blood, culture",ICD9Proc,diagnosticProcedures,Alternative diagnoses
-4163951,Electrocardiographic procedure,SNOMED,diagnosticProcedures,Alternative diagnoses
-4202517,Endoscopic biopsy,SNOMED,diagnosticProcedures,Alternative diagnoses
-4039376,Gastrointestinal tract endoscopy,SNOMED,diagnosticProcedures,Alternative diagnoses
-709983,"Radiologic examination, esophagus, including scout chest radiograph(s) and delayed image(s), when performed; double-contrast (eg, high-density barium and effervescent agent) study",CPT4,diagnosticProcedures,Alternative diagnoses
-2007079,Electrographic monitoring,ICD9Proc,diagnosticProcedures,Alternative diagnoses
-2786741,"Measurement of Cardiac Electrical Activity, External Approach",ICD10PCS,diagnosticProcedures,Alternative diagnoses
-2786744,"Measurement of Cardiac Rhythm, External Approach",ICD10PCS,diagnosticProcedures,Alternative diagnoses
-3031563,CT Abdomen and Pelvis WO and W contrast IV,LOINC,diagnosticProcedures,Alternative diagnoses
-42737947,Cardiac magnetic resonance imaging for morphology; without contrast material (Deprecated),CPT4,diagnosticProcedures,Alternative diagnoses
-40757025,"Combined right and left heart catheterization including intraprocedural injection(s) for left ventriculography, imaging supervision and interpretation, when performed",CPT4,diagnosticProcedures,Alternative diagnoses
-42739616,"Coronal, sagittal, multiplanar, oblique, 3-dimensional and/or holographic reconstruction of computerized axial tomography, magnetic resonance imaging, or other tomographic modality (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-2313879,"Doppler echocardiography, pulsed wave and/or continuous wave with spectral display (List separately in addition to codes for echocardiographic imaging); complete",CPT4,diagnosticProcedures,Alternative diagnoses
-2313880,"Doppler echocardiography, pulsed wave and/or continuous wave with spectral display (List separately in addition to codes for echocardiographic imaging); follow-up or limited study (List separately in addition to codes for echocardiographic imaging)",CPT4,diagnosticProcedures,Alternative diagnoses
-42738801,"Imaging supervision, interpretation and report for injection procedure(s) during cardiac catheterization; pulmonary angiography, aortography, and/or selective coronary angiography including venous bypass grafts and arterial conduits (wheth... (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-42738800,"Imaging supervision, interpretation and report for injection procedure(s) during cardiac catheterization; ventricular and/or atrial angiography (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-40756943,"Injection procedure during cardiac catheterization including imaging supervision, interpretation, and report; for nonselective pulmonary arterial angiography (List separately in addition to code for primary procedure)",CPT4,diagnosticProcedures,Alternative diagnoses
-40757045,"Injection procedure during cardiac catheterization including imaging supervision, interpretation, and report; for selective left ventricular or left atrial angiography (List separately in addition to code for primary procedure)",CPT4,diagnosticProcedures,Alternative diagnoses
-40756983,"Injection procedure during cardiac catheterization including imaging supervision, interpretation, and report; for selective right ventricular or right atrial angiography (List separately in addition to code for primary procedure)",CPT4,diagnosticProcedures,Alternative diagnoses
-40756942,"Injection procedure during cardiac catheterization including imaging supervision, interpretation, and report; for supravalvular aortography (List separately in addition to code for primary procedure)",CPT4,diagnosticProcedures,Alternative diagnoses
-42739255,"Myocardial perfusion imaging; multiple studies, (planar) at rest and/or stress (exercise and/or pharmacologic), and redistribution and/or rest injection, with or without quantification (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-42739254,"Myocardial perfusion imaging; (planar) single study, at rest or stress (exercise and/or pharmacologic), with or without quantification (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-42739106,"Myocardial perfusion imaging; tomographic (SPECT), multiple studies, at rest and/or stress (exercise and/or pharmacologic) and redistribution and/or rest injection, with or without quantification (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-42737651,"Myocardial perfusion imaging; tomographic (SPECT), single study at rest or stress (exercise and/or pharmacologic), with or without quantification (Deprecated)",CPT4,diagnosticProcedures,Alternative diagnoses
-42628001,Myocardial strain imaging (quantitative assessment of myocardial mechanics using image-based analysis of local myocardial dynamics) (List separately in addition to code for primary procedure) (Deprecated),CPT4,diagnosticProcedures,Alternative diagnoses
-43527915,"Thoracentesis, needle or catheter, aspiration of the pleural space; with imaging guidance",CPT4,diagnosticProcedures,Alternative diagnoses
-43527914,"Thoracentesis, needle or catheter, aspiration of the pleural space; without imaging guidance",CPT4,diagnosticProcedures,Alternative diagnoses
-3041029,NM Lung Perfusion,LOINC,diagnosticProcedures,Alternative diagnoses
-36305612,Troponin I.cardiac panel - Serum or Plasma by High sensitivity method,LOINC,measurements,Disease of interest
-4021291,Troponin measurement,SNOMED,measurements,Disease of interest
-36304662,Troponin T.cardiac [Interpretation] in Serum or Plasma Qualitative by High sensitivity method,LOINC,measurements,Disease of interest
-3033745,Troponin I.cardiac [Mass/volume] in Blood,LOINC,measurements,Disease of interest
-3048863,Creatine kinase.MB/Creatine kinase.total [Ratio] in Serum or Plasma,LOINC,measurements,Disease of interest
-4265595,Creatine kinase measurement,SNOMED,measurements,Disease of interest
-3015620,Creatine kinase panel - Serum or Plasma,LOINC,measurements,Disease of interest
-4143902,Myoglobin measurement,SNOMED,measurements,Disease of interest
-4012918,Lactate dehydrogenase measurement,SNOMED,measurements,Disease of interest
-4263457,Aspartate aminotransferase measurement,SNOMED,measurements,Disease of interest
-3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,LOINC,measurements,Disease of interest
-3032971,Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL,LOINC,measurements,Disease of interest
-3006044,Creatine kinase.total/Creatine kinase.MB [Enzymatic activity ratio] in Serum or Plasma,LOINC,measurements,Disease of interest
-3006898,Lactate dehydrogenase 1/Lactate dehydrogenase.total in Serum or Plasma by Electrophoresis,LOINC,measurements,Disease of interest
-4021291,Troponin measurement,SNOMED,measurements,Alternative diagnoses
-36305612,Troponin I.cardiac panel - Serum or Plasma by High sensitivity method,LOINC,measurements,Alternative diagnoses
-3033745,Troponin I.cardiac [Mass/volume] in Blood,LOINC,measurements,Alternative diagnoses
-3048863,Creatine kinase.MB/Creatine kinase.total [Ratio] in Serum or Plasma,LOINC,measurements,Alternative diagnoses
-37393605,D-dimer level,SNOMED,measurements,Alternative diagnoses
-4322628,D-dimer assay,SNOMED,measurements,Alternative diagnoses
-3051714,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,LOINC,measurements,Alternative diagnoses
-42870366,Fibrin D-dimer [Mass/volume] in Blood by Rapid immunoassay,LOINC,measurements,Alternative diagnoses
-3052648,Fibrin D-dimer [Mass/volume] in Platelet poor plasma by Immunoassay.FEU,LOINC,measurements,Alternative diagnoses
-3033464,Fibrin D-dimer [Presence] in Platelet poor plasma by Latex agglutination,LOINC,measurements,Alternative diagnoses
-4132152,Complete blood count,SNOMED,measurements,Alternative diagnoses
-4035541,"Blood cell count, automated",SNOMED,measurements,Alternative diagnoses
-4208414,C-reactive protein measurement,SNOMED,measurements,Alternative diagnoses
-4212065,Erythrocyte sedimentation rate measurement,SNOMED,measurements,Alternative diagnoses
-4081838,Blood gas analysis,SNOMED,measurements,Alternative diagnoses
-4042746,Blood gas measurement,SNOMED,measurements,Alternative diagnoses
-4021288,Triacylglycerol lipase measurement,SNOMED,measurements,Alternative diagnoses
-4276028,Amylase measurement,SNOMED,measurements,Alternative diagnoses
-4146380,Alanine aminotransferase measurement,SNOMED,measurements,Alternative diagnoses
-4263457,Aspartate aminotransferase measurement,SNOMED,measurements,Alternative diagnoses
-4230636,Alkaline phosphatase measurement,SNOMED,measurements,Alternative diagnoses
-3045524,Bilirubin direct and total panel [Mass/volume] - Serum or Plasma,LOINC,measurements,Alternative diagnoses
-44791466,Procalcitonin measurement,SNOMED,measurements,Alternative diagnoses
-4107893,Blood culture,SNOMED,measurements,Alternative diagnoses
-3005745,Bacteria identified in Blood by Aerobe culture,LOINC,measurements,Alternative diagnoses
-3025099,Bacteria identified in Sputum by Respiratory culture,LOINC,measurements,Alternative diagnoses
-3023419,Bacteria identified in Sputum by Culture,LOINC,measurements,Alternative diagnoses
-3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,LOINC,measurements,Alternative diagnoses
-3032971,Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL,LOINC,measurements,Alternative diagnoses
-4253501,Cardiac enzymes/isoenzymes measurement,SNOMED,measurements,Alternative diagnoses
-4042917,Creatine kinase isoenzymes measurement,SNOMED,measurements,Alternative diagnoses
-3006044,Creatine kinase.total/Creatine kinase.MB [Enzymatic activity ratio] in Serum or Plasma,LOINC,measurements,Alternative diagnoses
-3048530,Fibrin D-dimer DDU [Mass/volume] in Platelet poor plasma,LOINC,measurements,Alternative diagnoses
-3015823,Fibrin D-dimer [Presence] in Platelet poor plasma,LOINC,measurements,Alternative diagnoses
-3038383,Fibrin D-dimer [Titer] in Platelet poor plasma,LOINC,measurements,Alternative diagnoses
-4035540,"Blood cell count, manual",SNOMED,measurements,Alternative diagnoses
-40760140,CBC W Auto Differential panel - Blood,LOINC,measurements,Alternative diagnoses
-40760892,CBC W Ordered Manual Differential panel - Blood,LOINC,measurements,Alternative diagnoses
-3005833,Gas panel - Blood,LOINC,measurements,Alternative diagnoses
-4118986,Bilirubin measurement,SNOMED,measurements,Alternative diagnoses
-37203929,Measurement of level of substance in blood,SNOMED,measurements,Alternative diagnoses
-3023368,Bacteria identified in Blood by Culture,LOINC,measurements,Alternative diagnoses
-3029151,Bacteria identified in Bronchial specimen,LOINC,measurements,Alternative diagnoses
-3018624,Bacteria identified in Nose by Aerobe culture,LOINC,measurements,Alternative diagnoses
-3025233,Bacteria identified in Sputum by Aerobe culture,LOINC,measurements,Alternative diagnoses
-3035740,Bacteria identified in Throat by Aerobe culture,LOINC,measurements,Alternative diagnoses
-3012475,Bacteria identified in Throat by Culture,LOINC,measurements,Alternative diagnoses
-4150819,Operative procedure on coronary artery,SNOMED,treatmentProcedures,Disease of interest
-4060257,Insertion of intra-aortic balloon counterpulsation,SNOMED,treatmentProcedures,Disease of interest
-4144062,Intravenous infusion of thrombolytic,SNOMED,treatmentProcedures,Disease of interest
-44790938,Injection of thrombolytic,SNOMED,treatmentProcedures,Disease of interest
-2008245,Injection or infusion of thrombolytic agent,ICD9Proc,treatmentProcedures,Disease of interest
-2001554,Other repair of heart and pericardium,ICD9Proc,treatmentProcedures,Disease of interest
-35622031,Intraoperative insertion of cardiac pacemaker,SNOMED,treatmentProcedures,Disease of interest
-4275142,Implantation of heart assist system,SNOMED,treatmentProcedures,Disease of interest
-2001996,"Implantation or replacement of automatic cardioverter/defibrillator, total system [AICD]",ICD9Proc,treatmentProcedures,Disease of interest
-2008264,Injection of anticoagulant,ICD9Proc,treatmentProcedures,Disease of interest
-4060257,Insertion of intra-aortic balloon counterpulsation,SNOMED,treatmentProcedures,Alternative diagnoses
-4181152,Endovascular repair of thoracic aortic aneurysm using endovascular stent graft,SNOMED,treatmentProcedures,Alternative diagnoses
-2107427,"Endovascular repair of descending thoracic aorta (eg, aneurysm, pseudoaneurysm, dissection, penetrating ulcer, intramural hematoma, or traumatic disruption); not involving coverage of left subclavian artery origin, initial endoprosthesis plus descendin...",CPT4,treatmentProcedures,Alternative diagnoses
-42894832,"Replacement of Thoracic Aorta, Ascending/Arch with Synthetic Substitute, Open Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-4149930,Pericardiocentesis,SNOMED,treatmentProcedures,Alternative diagnoses
-2106911,Pericardiocentesis; initial,CPT4,treatmentProcedures,Alternative diagnoses
-4240305,Thoracentesis,SNOMED,treatmentProcedures,Alternative diagnoses
-4142628,Pericardiectomy,SNOMED,treatmentProcedures,Alternative diagnoses
-4030257,Incision of pericardium,SNOMED,treatmentProcedures,Alternative diagnoses
-4052536,Extracorporeal membrane oxygenation,SNOMED,treatmentProcedures,Alternative diagnoses
-2006147,Other myectomy,ICD9Proc,treatmentProcedures,Alternative diagnoses
-4128700,Esophagomyotomy,SNOMED,treatmentProcedures,Alternative diagnoses
-4141919,Insertion of pleural tube drain,SNOMED,treatmentProcedures,Alternative diagnoses
-4083066,Drainage of pleural cavity,SNOMED,treatmentProcedures,Alternative diagnoses
-4222936,Pleurodesis,SNOMED,treatmentProcedures,Alternative diagnoses
-4242997,Cholecystectomy,SNOMED,treatmentProcedures,Alternative diagnoses
-2109364,"Laparoscopy, surgical; cholecystectomy with cholangiography",CPT4,treatmentProcedures,Alternative diagnoses
-4067681,Percutaneous cholecystostomy,SNOMED,treatmentProcedures,Alternative diagnoses
-2110756,"Injection(s), anesthetic agent(s) and/or steroid; intercostal nerve, single level",CPT4,treatmentProcedures,Alternative diagnoses
-4171417,Injection of anesthetic agent into peripheral nerve for analgesia,SNOMED,treatmentProcedures,Alternative diagnoses
-2110757,"Injection(s), anesthetic agent(s) and/or steroid; intercostal nerve, each additional level (List separately in addition to code for primary procedure)",CPT4,treatmentProcedures,Alternative diagnoses
-4150819,Operative procedure on coronary artery,SNOMED,treatmentProcedures,Alternative diagnoses
-2000045,Insertion of four or more vascular stents,ICD9Proc,treatmentProcedures,Alternative diagnoses
-2000042,Insertion of one vascular stent,ICD9Proc,treatmentProcedures,Alternative diagnoses
-2000044,Insertion of three vascular stents,ICD9Proc,treatmentProcedures,Alternative diagnoses
-2000043,Insertion of two vascular stents,ICD9Proc,treatmentProcedures,Alternative diagnoses
-2001570,Insertion of percutaneous external heart assist device,ICD9Proc,treatmentProcedures,Alternative diagnoses
-35622031,Intraoperative insertion of cardiac pacemaker,SNOMED,treatmentProcedures,Alternative diagnoses
-2107408,"Ascending aorta graft, with cardiopulmonary bypass, includes valve suspension, when performed (Deprecated)",CPT4,treatmentProcedures,Alternative diagnoses
-2002231,Other repair of vessel,ICD9Proc,treatmentProcedures,Alternative diagnoses
-2002085,"Resection of vessel with replacement, thoracic vessels",ICD9Proc,treatmentProcedures,Alternative diagnoses
-4196199,Resection of abdominal aorta with replacement,SNOMED,treatmentProcedures,Alternative diagnoses
-2727179,"Restriction of Thoracic Aorta, Descending with Intraluminal Device, Percutaneous Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2726503,"Replacement of Thoracic Aorta, Descending with Synthetic Substitute, Open Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-42894868,"Supplement Thoracic Aorta, Ascending/Arch with Synthetic Substitute, Open Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2779553,"Drainage of Pericardial Cavity, Open Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2779556,"Drainage of Pericardial Cavity, Percutaneous Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2779551,"Drainage of Pericardial Cavity with Drainage Device, Open Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2779554,"Drainage of Pericardial Cavity with Drainage Device, Percutaneous Approach",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2001396,Other incision of pleura,ICD9Proc,treatmentProcedures,Alternative diagnoses
-46257511,"Extracorporeal membrane oxygenation (ECMO)/extracorporeal life support (ECLS) provided by physician; daily management, each day, veno-arterial",CPT4,treatmentProcedures,Alternative diagnoses
-46257510,"Extracorporeal membrane oxygenation (ECMO)/extracorporeal life support (ECLS) provided by physician; daily management, each day, veno-venous",CPT4,treatmentProcedures,Alternative diagnoses
-2002643,Laparoscopic procedures for creation of esophagogastric sphincteric competence,ICD9Proc,treatmentProcedures,Alternative diagnoses
-42736237,"Tube thoracostomy with or without water seal (eg, for abscess, hemothorax, empyema) (separate procedure) (Deprecated)",CPT4,treatmentProcedures,Alternative diagnoses
-4304943,Endoscopic retrograde cholangiopancreatography,SNOMED,treatmentProcedures,Alternative diagnoses
-4333888,Endoscopic insertion of drain into biliary tract using fluoroscopic guidance,SNOMED,treatmentProcedures,Alternative diagnoses
-2749709,"Dilation of Common Bile Duct with Intraluminal Device, Via Natural or Artificial Opening Endoscopic",ICD10PCS,treatmentProcedures,Alternative diagnoses
-2749918,"Dilation of Pancreatic Duct with Intraluminal Device, Via Natural or Artificial Opening Endoscopic",ICD10PCS,treatmentProcedures,Alternative diagnoses
-4232171,Endoscopic catheterization of pancreatic duct system,SNOMED,treatmentProcedures,Alternative diagnoses
-46271144,Endoscopic insertion of stent into bile duct,SNOMED,treatmentProcedures,Alternative diagnoses
-4340105,Biliary drainage,SNOMED,treatmentProcedures,Alternative diagnoses
-43531508,Percutaneous aspiration of substance from gallbladder,SNOMED,treatmentProcedures,Alternative diagnoses
-316139,Heart failure,SNOMED,complications,Disease of interest
-4064452,ECG: atrial fibrillation,SNOMED,complications,Disease of interest
-438777,Papillary muscle disorder,SNOMED,complications,Disease of interest
-318450,Cardiac tamponade,SNOMED,complications,Disease of interest
-258449,Hemopericardium,SNOMED,complications,Disease of interest
-4161701,Pericardial effusion,SNOMED,complications,Disease of interest
-4237062,Mural thrombus of heart,SNOMED,complications,Disease of interest
-45766241,Subsequent non-ST segment elevation myocardial infarction,SNOMED,complications,Disease of interest
-4108218,Subsequent myocardial infarction of inferior wall,SNOMED,complications,Disease of interest
-4108677,Subsequent myocardial infarction of anterior wall,SNOMED,complications,Disease of interest
-45766114,Subsequent ST segment elevation myocardial infarction,SNOMED,complications,Disease of interest
-201965,Shock,SNOMED,complications,Disease of interest
-4188331,Chronic pulmonary edema,SNOMED,complications,Disease of interest
-4322024,Pulmonary hypertension,SNOMED,complications,Disease of interest
-444070,Tachycardia,SNOMED,complications,Disease of interest
-321319,Cardiomyopathy,SNOMED,complications,Disease of interest
-200451,Chronic passive congestion of liver,SNOMED,complications,Disease of interest
-4110961,Generalized ischemic myocardial dysfunction,SNOMED,complications,Disease of interest
-44784217,Cardiac arrhythmia,SNOMED,complications,Disease of interest
-314658,Cardiomegaly,SNOMED,complications,Disease of interest
-319843,Mitral valve disorder,SNOMED,complications,Disease of interest
-261600,Acute pulmonary edema,SNOMED,complications,Disease of interest
-261880,Atelectasis,SNOMED,complications,Disease of interest
-4108680,"Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction",SNOMED,complications,Disease of interest
-197320,Acute kidney injury,SNOMED,complications,Disease of interest
-42536547,Ischemia of kidney,SNOMED,complications,Disease of interest
-4185607,Embolism,SNOMED,complications,Disease of interest
-4149782,Thrombosis of vein of lower limb,SNOMED,complications,Disease of interest
-381591,Cerebrovascular disease,SNOMED,complications,Disease of interest
-43530623,Sequela of cerebrovascular accident,SNOMED,complications,Disease of interest
-443551,Apraxia due to cerebrovascular accident,SNOMED,complications,Disease of interest
-376713,Cerebral hemorrhage,SNOMED,complications,Disease of interest
-44782781,Hemiplegia and/or hemiparesis following stroke,SNOMED,complications,Disease of interest
-443454,Cerebral infarction,SNOMED,complications,Disease of interest
-4138837,Pericarditis,SNOMED,complications,Disease of interest
-4198141,Post infarct angina,SNOMED,complications,Disease of interest
-377845,Anoxic encephalopathy,SNOMED,complications,Disease of interest
-4256228,Respiratory failure,SNOMED,complications,Disease of interest
-444044,Acute tubular necrosis,SNOMED,complications,Disease of interest
-436093,Disseminated intravascular coagulation,SNOMED,complications,Disease of interest
-4245975,Hepatic failure,SNOMED,complications,Disease of interest
-4337543,Hepatic necrosis,SNOMED,complications,Disease of interest
-441536,Mixed acid-base balance disorder,SNOMED,complications,Disease of interest
-260430,Pneumonia caused by Escherichia coli,SNOMED,complications,Disease of interest
-46270027,Pneumonia caused by methicillin resistant Staphylococcus aureus,SNOMED,complications,Disease of interest
-46274035,Pneumonia caused by methicillin susceptible Staphylococcus aureus,SNOMED,complications,Disease of interest
-37394658,Severe sepsis,SNOMED,complications,Disease of interest
-44784217,Cardiac arrhythmia,SNOMED,complications,Alternative diagnoses
-4064452,ECG: atrial fibrillation,SNOMED,complications,Alternative diagnoses
-321886,Rupture of artery,SNOMED,complications,Alternative diagnoses
-318450,Cardiac tamponade,SNOMED,complications,Alternative diagnoses
-258449,Hemopericardium,SNOMED,complications,Alternative diagnoses
-4161701,Pericardial effusion,SNOMED,complications,Alternative diagnoses
-315564,Aortic valve regurgitation,SNOMED,complications,Alternative diagnoses
-374384,Cerebral ischemia,SNOMED,complications,Alternative diagnoses
-381316,Cerebrovascular accident,SNOMED,complications,Alternative diagnoses
-373503,Transient cerebral ischemia,SNOMED,complications,Alternative diagnoses
-4163710,Dilated cardiomyopathy,SNOMED,complications,Alternative diagnoses
-201965,Shock,SNOMED,complications,Alternative diagnoses
-443344,Barrett's esophagus,SNOMED,complications,Alternative diagnoses
-4181343,Malignant tumor of esophagus,SNOMED,complications,Alternative diagnoses
-4268622,Stricture of esophagus,SNOMED,complications,Alternative diagnoses
-25844,Ulcer of esophagus,SNOMED,complications,Alternative diagnoses
-4135466,Hemothorax,SNOMED,complications,Alternative diagnoses
-254061,Pleural effusion,SNOMED,complications,Alternative diagnoses
-4008556,Pseudocyst of pancreas,SNOMED,complications,Alternative diagnoses
-4195694,Acute respiratory distress syndrome,SNOMED,complications,Alternative diagnoses
-4191650,Acute respiratory distress,SNOMED,complications,Alternative diagnoses
-196469,Perforation of gallbladder,SNOMED,complications,Alternative diagnoses
-200154,Fistula of gallbladder,SNOMED,complications,Alternative diagnoses
-192957,Perforation of bile duct,SNOMED,complications,Alternative diagnoses
-4209859,Empyema,SNOMED,complications,Alternative diagnoses
-257010,Abscess of lung,SNOMED,complications,Alternative diagnoses
-132797,Sepsis,SNOMED,complications,Alternative diagnoses
-316139,Heart failure,SNOMED,complications,Alternative diagnoses
-261600,Acute pulmonary edema,SNOMED,complications,Alternative diagnoses
-4188331,Chronic pulmonary edema,SNOMED,complications,Alternative diagnoses
-4322024,Pulmonary hypertension,SNOMED,complications,Alternative diagnoses
-444070,Tachycardia,SNOMED,complications,Alternative diagnoses
-4237062,Mural thrombus of heart,SNOMED,complications,Alternative diagnoses
-4169095,Bradycardia,SNOMED,complications,Alternative diagnoses
-434004,Hypervolemia,SNOMED,complications,Alternative diagnoses
-197320,Acute kidney injury,SNOMED,complications,Alternative diagnoses
-261880,Atelectasis,SNOMED,complications,Alternative diagnoses
-437390,Hypoxemia,SNOMED,complications,Alternative diagnoses
-43530876,Necrosis of anatomical site,SNOMED,complications,Alternative diagnoses
-43020567,Air leaking from lung,SNOMED,complications,Alternative diagnoses
-4057432,Mediastinal emphysema,SNOMED,complications,Alternative diagnoses
-253796,Pneumothorax,SNOMED,complications,Alternative diagnoses
-43021258,Infection associated with implant,SNOMED,complications,Alternative diagnoses
-42538935,Perioperative hemorrhage,SNOMED,complications,Alternative diagnoses
-4170452,Postoperative renal failure,SNOMED,complications,Alternative diagnoses
-443194,Accidental cut during medical care,SNOMED,complications,Alternative diagnoses
-434204,Late effect of internal injury to chest,SNOMED,complications,Alternative diagnoses
-4180636,Cardiac complication of procedure,SNOMED,complications,Alternative diagnoses
-43530623,Sequela of cerebrovascular accident,SNOMED,complications,Alternative diagnoses
-443551,Apraxia due to cerebrovascular accident,SNOMED,complications,Alternative diagnoses
-372924,Cerebral artery occlusion,SNOMED,complications,Alternative diagnoses
-376713,Cerebral hemorrhage,SNOMED,complications,Alternative diagnoses
-44782781,Hemiplegia and/or hemiparesis following stroke,SNOMED,complications,Alternative diagnoses
-4164092,Acute cerebrovascular insufficiency,SNOMED,complications,Alternative diagnoses
-440424,Aphasia,SNOMED,complications,Alternative diagnoses
-435642,Disturbance in speech,SNOMED,complications,Alternative diagnoses
-40480429,Hemiplegia of nondominant side,SNOMED,complications,Alternative diagnoses
-4112024,Occlusion and stenosis of cerebellar arteries,SNOMED,complications,Alternative diagnoses
-192671,Gastrointestinal hemorrhage,SNOMED,complications,Alternative diagnoses
-4138837,Pericarditis,SNOMED,complications,Alternative diagnoses
-435517,Acidosis,SNOMED,complications,Alternative diagnoses
-36717032,Acute organ dysfunction due to systemic inflammatory response syndrome,SNOMED,complications,Alternative diagnoses
-46273390,Dependence on respirator,SNOMED,complications,Alternative diagnoses
-436093,Disseminated intravascular coagulation,SNOMED,complications,Alternative diagnoses
-441536,Mixed acid-base balance disorder,SNOMED,complications,Alternative diagnoses
-4185607,Embolism,SNOMED,complications,Alternative diagnoses
-44782752,Acute deep venous thrombosis of internal jugular vein,SNOMED,complications,Alternative diagnoses
-44782421,Acute deep venous thrombosis of upper extremity,SNOMED,complications,Alternative diagnoses
-4149782,Thrombosis of vein of lower limb,SNOMED,complications,Alternative diagnoses
-4207615,Thrombosis of vein of trunk,SNOMED,complications,Alternative diagnoses
-30753,Esophagitis,SNOMED,complications,Alternative diagnoses
-4224926,Obstruction of esophagus,SNOMED,complications,Alternative diagnoses
-255848,Pneumonia,SNOMED,complications,Alternative diagnoses
-438730,Alkalosis,SNOMED,complications,Alternative diagnoses
-438791,Pulmonary congestion and hypostasis,SNOMED,complications,Alternative diagnoses
-200528,Ascites,SNOMED,complications,Alternative diagnoses
-195596,Chronic pancreatitis,SNOMED,complications,Alternative diagnoses
-201901,Abscess of liver,SNOMED,complications,Alternative diagnoses
-4341763,Gallstone acute pancreatitis,SNOMED,complications,Alternative diagnoses
-195856,Cholangitis,SNOMED,complications,Alternative diagnoses
-437828,Disorder of calcium metabolism,SNOMED,complications,Alternative diagnoses
-4307981,Clostridium difficile colitis,SNOMED,complications,Alternative diagnoses
-435515,Hypo-osmolality and or hyponatremia,SNOMED,complications,Alternative diagnoses
-317002,Low blood pressure,SNOMED,complications,Alternative diagnoses
-4207539,Syndrome of inappropriate vasopressin secretion,SNOMED,complications,Alternative diagnoses
-439928,Gangrenous disorder,SNOMED,complications,Alternative diagnoses
-195307,Hydrops of gallbladder,SNOMED,complications,Alternative diagnoses
-200757,Abscess of peritoneum,SNOMED,complications,Alternative diagnoses
-194407,Fistula of bile duct,SNOMED,complications,Alternative diagnoses
-201066,Obstruction of bile duct,SNOMED,complications,Alternative diagnoses
-4189294,Inflammatory disorder of mediastinum,SNOMED,complications,Alternative diagnoses
-196152,Peritonitis,SNOMED,complications,Alternative diagnoses
-193242,Perforation of intestine,SNOMED,complications,Alternative diagnoses
-193518,Intestinal obstruction,SNOMED,complications,Alternative diagnoses
-441607,Abscess of mediastinum,SNOMED,complications,Alternative diagnoses
-372892,Metabolic encephalopathy,SNOMED,complications,Alternative diagnoses
-434821,Systemic inflammatory response syndrome,SNOMED,complications,Alternative diagnoses
+conceptId,conceptName,conceptSetName
+443454,Cerebral infarction,complications
+42536547,Ischemia of kidney,complications
+260430,Pneumonia caused by Escherichia coli,complications
+381591,Cerebrovascular disease,complications
+314658,Cardiomegaly,complications
+4161701,Pericardial effusion,complications
+436093,Disseminated intravascular coagulation,complications
+441536,Mixed acid-base balance disorder,complications
+4198141,Post infarct angina,complications
+4185607,Embolism,complications
+4188331,Chronic pulmonary edema,complications
+318450,Cardiac tamponade,complications
+44784217,Cardiac arrhythmia,complications
+4237062,Mural thrombus of heart,complications
+197320,Acute kidney injury,complications
+4108218,Subsequent myocardial infarction of inferior wall,complications
+444070,Tachycardia,symptoms
+4108677,Subsequent myocardial infarction of anterior wall,complications
+45766114,Subsequent ST segment elevation myocardial infarction,complications
+261600,Acute pulmonary edema,complications
+4245975,Hepatic failure,complications
+4322024,Pulmonary hypertension,complications
+377845,Anoxic encephalopathy,complications
+46274035,Pneumonia caused by methicillin susceptible Staphylococcus aureus,complications
+444070,Tachycardia,complications
+4149782,Thrombosis of vein of lower limb,complications
+438172,Atrial septal defect due to and following acute myocardial infarction,complications
+258449,Hemopericardium,complications
+4256228,Respiratory failure,complications
+46270027,Pneumonia caused by methicillin resistant Staphylococcus aureus,complications
+444044,Acute tubular necrosis,complications
+4110961,Generalized ischemic myocardial dysfunction,complications
+37394658,Severe sepsis,complications
+201965,Shock,complications
+44782781,Hemiplegia and/or hemiparesis following stroke,complications
+4108680,"Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction",complications
+261880,Atelectasis,complications
+376713,Cerebral hemorrhage,complications
+4263255,Irregular heart beat,symptoms
+319843,Mitral valve disorder,complications
+45766241,Subsequent non-ST segment elevation myocardial infarction,complications
+316139,Heart failure,complications
+43530623,Sequela of cerebrovascular accident,complications
+443551,Apraxia due to cerebrovascular accident,complications
+4138837,Pericarditis,complications
+200451,Chronic passive congestion of liver,complications
+321319,Cardiomyopathy,complications
+4337543,Hepatic necrosis,complications
+376961,Disturbance of consciousness,symptoms
+438777,Papillary muscle disorder,complications
+3033745,Troponin I.cardiac [Mass/volume] in Blood,measurements
+3032971,Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL,measurements
+3006044,Creatine kinase.total/Creatine kinase.MB [Enzymatic activity ratio] in Serum or Plasma,measurements
+3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,measurements
+4021291,Troponin measurement,measurements
+36305612,Troponin I.cardiac panel - Serum or Plasma by High sensitivity method,measurements
+4143902,Myoglobin measurement,measurements
+3048863,Creatine kinase.MB/Creatine kinase.total [Ratio] in Serum or Plasma,measurements
+36304662,Troponin T.cardiac [Interpretation] in Serum or Plasma Qualitative by High sensitivity method,measurements
+4275142,Implantation of heart assist system,treatmentProcedures
+2001554,Other repair of heart and pericardium,treatmentProcedures
+4148369,Angiocardiography,diagnosticProcedures
+42734805,Injection procedure during cardiac catheterization for selective coronary angiography (injection of radiopaque material may be by hand) (Deprecated),diagnosticProcedures
+42738801,"Imaging supervision, interpretation and report for injection procedure(s) during cardiac catheterization pulmonary angiography, aortography, and/or selective coronary angiography including venous bypass grafts and arterial conduits (wheth... (Deprecated)",diagnosticProcedures
+4144062,Intravenous infusion of thrombolytic,treatmentProcedures
+42738798,"Injection procedure during cardiac catheterization for selective opacification of arterial conduits (eg, internal mammary), whether native or used for bypass (Deprecated)",diagnosticProcedures
+35622031,Intraoperative insertion of cardiac pacemaker,treatmentProcedures
+2008264,Injection of anticoagulant,treatmentProcedures
+2008245,Injection or infusion of thrombolytic agent,treatmentProcedures
+2786744,"Measurement of Cardiac Rhythm, External Approach",diagnosticProcedures
+42738799,"Injection procedure during cardiac catheterization for selective opacification of aortocoronary venous bypass grafts, one or more coronary arteries (Deprecated)",diagnosticProcedures
+4043174,Procedure on coronary arteries,treatmentProcedures
+4223020,Cardiac catheterization,diagnosticProcedures
+42738800,"Imaging supervision, interpretation and report for injection procedure(s) during cardiac catheterization ventricular and/or atrial angiography (Deprecated)",diagnosticProcedures
+2001996,"Implantation or replacement of automatic cardioverter/defibrillator, total system [AICD]",treatmentProcedures
+4060257,Insertion of intra-aortic balloon counterpulsation,treatmentProcedures
+42734803,Injection procedure during cardiac catheterization for selective right ventricular or right atrial angiography (Deprecated),diagnosticProcedures
+2007079,Electrographic monitoring,diagnosticProcedures
+2786741,"Measurement of Cardiac Electrical Activity, External Approach",diagnosticProcedures
+42734804,Injection procedure during cardiac catheterization for selective left ventricular or left atrial angiography (Deprecated),diagnosticProcedures
+1315865,fondaparinux,drugs
+1337720,dobutamine,drugs
+19047423,abciximab,drugs
+1383925,isosorbide dinitrate,drugs
+19084670,bivalirudin,drugs
+942350,torsemide,drugs
+19098548,tenecteplase,drugs
+19017067,tirofiban,drugs
+1301065,dalteparin,drugs
+1334456,ramipril,drugs
+1309799,eplerenone,drugs
+1347450,alteplase,drugs
+1310149,warfarin,drugs
+1346823,carvedilol,drugs
+1301025,enoxaparin,drugs
+970250,spironolactone,drugs
+1370109,sotalol,drugs
+1361711,nitroglycerin,drugs
+1328165,diltiazem,drugs
+1302398,ticlopidine,drugs
+19136187,streptokinase,drugs
+1322199,eptifibatide,drugs
+1526475,ezetimibe,drugs
+1367571,heparin,drugs
+19024191,reteplase,drugs
+46275677,cangrelor,drugs
+40241331,rivaroxaban,drugs
+40163718,prasugrel,drugs
+1307542,mexiletine,drugs
+1307046,metoprolol,drugs
+1383815,isosorbide,drugs
+40241186,ticagrelor,drugs
+1340128,captopril,drugs
+932745,bumetanide,drugs
+1309944,amiodarone,drugs
+1322184,clopidogrel,drugs
+46275719,sacubitril,drugs
+46287466,evolocumab,drugs
+46275447,alirocumab,drugs

@@ -43,7 +43,7 @@ amiCs <- cs(
 )
 
 inpatientOrEr <- cs(descendants(262, 9201),
-         name = "Inpatient or inpatient ER visit")
+                    name = "Inpatient or inpatient ER visit")
 
 amiCohort <- cohort(
   entry = entry(
@@ -132,9 +132,9 @@ specConcepts <- createSensitiveCohort(
   createCohortTable = FALSE,
   keeperConceptSets = conceptSets
 )
-# Optum Dod:  Cohort size is 26,840,645 persons, 2,990,763 with the diagnosis, and 23,849,882 with a combination of other markers.
+# Optum Dod:   Cohort size is 16,472,835 persons, 1,677,093 with the diagnosis, and 14,795,742 with a combination of other markers.
 
-readr::write_csv(conceptSets, "Keeper/specConceptsOptumDod.csv")
+readr::write_csv(specConcepts, "Keeper/specConceptsOptumDod.csv")
 
 # Run Keeper on the sensitive cohort -----------------------------------------------------------------------------------
 keeperHsc <- generateKeeper(
@@ -148,11 +148,11 @@ keeperHsc <- generateKeeper(
   keeperConceptSets = conceptSets,
   removePii = FALSE
 )
-saveRDS(keeperHsc, file.path(folder, "keeperamiHsc.rds"))
+saveRDS(keeperHsc, file.path(folder, "keeperAmiHsc.rds"))
 
 
 # Run LLM adjudication on highly-sensitive cohort ----------------------------------------------------------------------
-keeperHsc <- readRDS(file.path(folder, "keeperamiHsc.rds"))
+keeperHsc <- readRDS(file.path(folder, "keeperAmiHsc.rds"))
 
 library(ellmer)
 client <- chat_azure_openai(
@@ -162,15 +162,15 @@ client <- chat_azure_openai(
   credentials = function() keyring::key_get("genai_api_gpt4_key")
 )
 promptSettings <- createPromptSettings()
-llmResponsesHsc <- reviewCases(keeper = keeperHsc,
-                               settings = promptSettings,
-                               client = client,
-                               cacheFolder =  file.path(folder, "cacheamiHsc"))
-saveRDS(llmResponsesHsc, file.path(folder, "llmReviewsamiHsc.rds"))
+llmReviewsHsc <- reviewCases(keeper = keeperHsc,
+                             settings = promptSettings,
+                             client = client,
+                             cacheFolder =  file.path(folder, "cacheamiHsc"))
+saveRDS(llmReviewsHsc, file.path(folder, "llmReviewsAmiHsc.rds"))
 
 
 # Upload reference cohort to server ------------------------------------------------------------------------------------
-llmResponsesHsc <- readRDS(file.path(folder, "llmReviewsamiHsc.rds"))
+llmReviewsHsc <- readRDS(file.path(folder, "llmReviewsAmiHsc.rds"))
 
 uploadReferenceCohort(
   connectionDetails = connectionDetails,
@@ -178,7 +178,7 @@ uploadReferenceCohort(
   referenceCohortTableNames = createReferenceCohortTableNames(referenceCohortTable),
   referenceCohortDefinitionId = 1,
   createReferenceCohortTables = TRUE,
-  reviews = llmResponsesHsc
+  reviews = llmReviewsHsc
 )
 
 # Compute cohort operating characteristics -----------------------------------------------------------------------------
