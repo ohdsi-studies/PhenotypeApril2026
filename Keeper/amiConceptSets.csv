@@ -1,9 +1,6 @@
 conceptId,conceptName,vocabularyId,conceptSetName,target
 4329847,Myocardial infarction,SNOMED,doi,Disease of interest
-438172,Atrial septal defect due to and following acute myocardial infarction,SNOMED,doi,Disease of interest
-4108680,"Thrombosis of atrium, auricular appendage, and ventricle due to and following acute myocardial infarction",SNOMED,doi,Disease of interest
-4121477,Post-infarction pericarditis,SNOMED,doi,Disease of interest
-4198141,Post infarct angina,SNOMED,doi,Disease of interest
+438172,Atrial septal defect due to and following acute myocardial infarction,SNOMED,complications,Disease of interest
 321318,Angina pectoris,SNOMED,alternativeDiagnosis,Disease of interest
 440417,Pulmonary embolism,SNOMED,alternativeDiagnosis,Disease of interest
 317585,Aortic aneurysm,SNOMED,alternativeDiagnosis,Disease of interest
@@ -28,7 +25,7 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 4091509,Esophageal reflux finding,SNOMED,alternativeDiagnosis,Disease of interest
 201061,Diaphragmatic hernia,SNOMED,alternativeDiagnosis,Disease of interest
 201340,Gastritis,SNOMED,alternativeDiagnosis,Disease of interest
-25844,Ulcer of esophagus,SNOMED,alternativeDiagnosis,Disease of interest
+4027663,Peptic ulcer,SNOMED,alternativeDiagnosis,Disease of interest
 318186,Achalasia of esophagus,SNOMED,alternativeDiagnosis,Disease of interest
 43020567,Air leaking from lung,SNOMED,alternativeDiagnosis,Disease of interest
 4238808,Empyema of pleura,SNOMED,alternativeDiagnosis,Disease of interest
@@ -125,7 +122,7 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 1347450,alteplase,RxNorm,drugs,Disease of interest
 19024191,reteplase,RxNorm,drugs,Disease of interest
 19136187,streptokinase,RxNorm,drugs,Disease of interest
-19005977,tenecteplase 50 MG Injection [Tnkase],RxNorm,drugs,Disease of interest
+19098548,tenecteplase,RxNorm,drugs,Disease of interest
 1353766,propranolol,RxNorm,drugs,Disease of interest
 1307046,metoprolol,RxNorm,drugs,Disease of interest
 1314002,atenolol,RxNorm,drugs,Disease of interest
@@ -173,7 +170,6 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 1309944,amiodarone,RxNorm,drugs,Disease of interest
 1328165,diltiazem,RxNorm,drugs,Disease of interest
 1370109,sotalol,RxNorm,drugs,Disease of interest
-989878,lidocaine,RxNorm,drugs,Disease of interest
 1319998,acebutolol,RxNorm,drugs,Disease of interest
 1314577,nebivolol,RxNorm,drugs,Disease of interest
 932745,bumetanide,RxNorm,drugs,Disease of interest
@@ -248,10 +244,6 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 953076,famotidine,RxNorm,drugs,Alternative diagnoses
 997276,cimetidine,RxNorm,drugs,Alternative diagnoses
 950696,nizatidine,RxNorm,drugs,Alternative diagnoses
-993631,magnesium oxide,RxNorm,drugs,Alternative diagnoses
-992956,magnesium hydroxide,RxNorm,drugs,Alternative diagnoses
-19035704,calcium carbonate,RxNorm,drugs,Alternative diagnoses
-985247,aluminum hydroxide,RxNorm,drugs,Alternative diagnoses
 1110410,morphine,RxNorm,drugs,Alternative diagnoses
 1126658,hydromorphone,RxNorm,drugs,Alternative diagnoses
 1154029,fentanyl,RxNorm,drugs,Alternative diagnoses
@@ -309,7 +301,6 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 1551860,pravastatin,RxNorm,drugs,Alternative diagnoses
 37499009,bempedoic acid,RxNorm,drugs,Alternative diagnoses
 1551803,fenofibrate,RxNorm,drugs,Alternative diagnoses
-1560305,omega-3 acid ethyl esters (USP),RxNorm,drugs,Alternative diagnoses
 40165636,pitavastatin,RxNorm,drugs,Alternative diagnoses
 46275447,alirocumab,RxNorm,drugs,Alternative diagnoses
 46287466,evolocumab,RxNorm,drugs,Alternative diagnoses
@@ -331,8 +322,6 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 1836948,tetracycline,RxNorm,drugs,Alternative diagnoses
 1786621,cephalexin,RxNorm,drugs,Alternative diagnoses
 997881,clindamycin,RxNorm,drugs,Alternative diagnoses
-939506,sodium bicarbonate,RxNorm,drugs,Alternative diagnoses
-19097016,"calcium carbonate, precipitated",RxNorm,drugs,Alternative diagnoses
 1717963,ertapenem,RxNorm,drugs,Alternative diagnoses
 1768849,cefaclor,RxNorm,drugs,Alternative diagnoses
 1774470,cefotaxime,RxNorm,drugs,Alternative diagnoses
@@ -418,7 +407,6 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 3015620,Creatine kinase panel - Serum or Plasma,LOINC,measurements,Disease of interest
 4143902,Myoglobin measurement,SNOMED,measurements,Disease of interest
 4012918,Lactate dehydrogenase measurement,SNOMED,measurements,Disease of interest
-4263457,Aspartate aminotransferase measurement,SNOMED,measurements,Disease of interest
 3021337,Troponin I.cardiac [Mass/volume] in Serum or Plasma,LOINC,measurements,Disease of interest
 3032971,Troponin I.cardiac [Mass/volume] in Serum or Plasma by Detection limit <= 0.01 ng/mL,LOINC,measurements,Disease of interest
 3006044,Creatine kinase.total/Creatine kinase.MB [Enzymatic activity ratio] in Serum or Plasma,LOINC,measurements,Disease of interest
@@ -470,7 +458,7 @@ conceptId,conceptName,vocabularyId,conceptSetName,target
 3025233,Bacteria identified in Sputum by Aerobe culture,LOINC,measurements,Alternative diagnoses
 3035740,Bacteria identified in Throat by Aerobe culture,LOINC,measurements,Alternative diagnoses
 3012475,Bacteria identified in Throat by Culture,LOINC,measurements,Alternative diagnoses
-4150819,Operative procedure on coronary artery,SNOMED,treatmentProcedures,Disease of interest
+4043174,Procedure on coronary arteries,SNOMED,treatmentProcedures,Disease of interest
 4060257,Insertion of intra-aortic balloon counterpulsation,SNOMED,treatmentProcedures,Disease of interest
 4144062,Intravenous infusion of thrombolytic,SNOMED,treatmentProcedures,Disease of interest
 44790938,Injection of thrombolytic,SNOMED,treatmentProcedures,Disease of interest
