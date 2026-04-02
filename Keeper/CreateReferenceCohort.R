@@ -20,7 +20,7 @@ cdmDatabaseSchema <- "optum_extended_dod.cdm_optum_extended_dod_v3787"
 cohortDatabaseSchema <- "scratch.scratch_mschuemi"
 cohortTable <- "phenotype_april_cohort"
 referenceCohortDatabaseSchema <- "scratch.scratch_all"
-referenceCohortTable <- "phenotype_april_reference_cohort_optum_extended_dod_v3787"
+referenceCohortTable <- "reference_cohort_optum_extended_dod_v3787"
 options(sqlRenderTempEmulationSchema = "scratch.scratch_mschuemi")
 
 folder <- "e:/PhenotypeApril2026"
@@ -91,7 +91,7 @@ keeper <- generateKeeper(
   cohortTable = cohortTable,
   cohortDefinitionId = 1,
   sampleSize = 100,
-  phenotypeName = "Atrial fibrillation",
+  phenotypeName = "Acute Myocardial Infarction",
   keeperConceptSets = conceptSets,
   removePii = TRUE
 )
@@ -112,7 +112,7 @@ client <- chat_azure_openai(
 promptSettings <- createPromptSettings()
 llmResponses <- reviewCases(keeper = keeper,
                             settings = promptSettings,
-                            phenotypeName = "Atrial Fibrillation",
+                            phenotypeName = "Acute Myocardial Infarction",
                             client = client,
                             cacheFolder = file.path(folder, "cacheami"))
 llmResponses |>
@@ -144,7 +144,7 @@ keeperHsc <- generateKeeper(
   cohortTable = cohortTable,
   cohortDefinitionId = 2,
   sampleSize = 10000,
-  phenotypeName = "Atrial Fibrillation",
+  phenotypeName = "Acute Myocardial Infarction",
   keeperConceptSets = conceptSets,
   removePii = FALSE
 )
@@ -168,6 +168,14 @@ llmReviewsHsc <- reviewCases(keeper = keeperHsc,
                              cacheFolder =  file.path(folder, "cacheamiHsc"))
 saveRDS(llmReviewsHsc, file.path(folder, "llmReviewsAmiHsc.rds"))
 
+llmReviewsHsc |> 
+  group_by(isCase, certainty) |>
+  count()
+# isCase certainty     n
+#  no     high       8912
+#  no     low          36
+#  yes    high        859
+#  yes    low         193
 
 # Upload reference cohort to server ------------------------------------------------------------------------------------
 llmReviewsHsc <- readRDS(file.path(folder, "llmReviewsAmiHsc.rds"))
@@ -176,10 +184,27 @@ uploadReferenceCohort(
   connectionDetails = connectionDetails,
   referenceCohortDatabaseSchema = referenceCohortDatabaseSchema,
   referenceCohortTableNames = createReferenceCohortTableNames(referenceCohortTable),
-  referenceCohortDefinitionId = 1,
-  createReferenceCohortTables = TRUE,
+  referenceCohortDefinitionId = 2,
+  createReferenceCohortTables = FALSE,
   reviews = llmReviewsHsc
 )
+
+# (Some code to verify upload)
+connection <- DatabaseConnector::connect(connectionDetails)
+metadata <- DatabaseConnector::renderTranslateQuerySql(
+  connection= connection,
+  sql = "SELECT * FROM @schema.@table_metadata;",
+  schema = referenceCohortDatabaseSchema,
+  table = referenceCohortTable
+)
+metadata
+DatabaseConnector::renderTranslateQuerySql(
+  connection= connection,
+  sql = "SELECT cohort_definition_id, is_case, COUNT(*) AS profile_count FROM @schema.@table GROUP BY cohort_definition_id, is_case;",
+  schema = referenceCohortDatabaseSchema,
+  table = referenceCohortTable
+)
+DatabaseConnector::disconnect(connection)
 
 # Compute cohort operating characteristics -----------------------------------------------------------------------------
 metrics <- computeCohortOperatingCharacteristics(
@@ -189,6 +214,6 @@ metrics <- computeCohortOperatingCharacteristics(
   cohortDefinitionId = 1,
   referenceCohortDatabaseSchema = referenceCohortDatabaseSchema,
   referenceCohortTableNames = createReferenceCohortTableNames(referenceCohortTable),
-  referenceCohortDefinitionId = 1
+  referenceCohortDefinitionId = 2
 )
 
