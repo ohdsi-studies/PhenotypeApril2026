@@ -1,10 +1,11 @@
 cohortId,cohortName,jsonFileName
-1796887,[Phenotype Aphril] 001 - Acute First Myocardial infarction - 01 diagnosis only,ReferencePhenotypes/cohort1796887.json
-1796888,[Phenotype Aphril] 002 - Acute First Myocardial infarction - 01 diagnosis 02 complications,ReferencePhenotypes/cohort1796888.json
-1796889,[Phenotype Aphril] 003 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v2x,ReferencePhenotypes/cohort1796889.json
-1796890,[Phenotype Aphril] 004 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v3,ReferencePhenotypes/cohort1796890.json
-1796891,[Phenotype Aphril] 005 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v4,ReferencePhenotypes/cohort1796891.json
-1796892,[Phenotype Aphril] 006 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v5,ReferencePhenotypes/cohort1796892.json
-1796893,"[Phenotype Aphril] 007 - Acute First Myocardial infarction - 05 Symptoms, 03 Diag Proc, 04 Th Intvn",ReferencePhenotypes/cohort1796893.json
-1796894,[Phenotype Aphril] 008 - Acute First Myocardial infarction - 6D,ReferencePhenotypes/cohort1796894.json
-1796895,[Phenotype Aphril] 009 - Acute First Myocardial infarction - 6D - v2,ReferencePhenotypes/cohort1796895.json
+1796887,[Phenotype Aphril] 001 - Acute First Myocardial infarction - 01 diagnosis only,BasePhenotypes/cohort1796887.json
+1796888,[Phenotype Aphril] 002 - Acute First Myocardial infarction - 01 diagnosis 02 complications,BasePhenotypes/cohort1796888.json
+1796889,[Phenotype Aphril] 003 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v2x,BasePhenotypes/cohort1796889.json
+1796890,[Phenotype Aphril] 004 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v3,BasePhenotypes/cohort1796890.json
+1796891,[Phenotype Aphril] 005 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v4,BasePhenotypes/cohort1796891.json
+1796892,[Phenotype Aphril] 006 - Acute First Myocardial infarction - 01 diagnosis 02 complications - v5,BasePhenotypes/cohort1796892.json
+1796893,"[Phenotype Aphril] 007 - Acute First Myocardial infarction - 05 Symptoms, 03 Diag Proc, 04 Th Intvn",BasePhenotypes/cohort1796893.json
+1796894,[Phenotype Aphril] 008 - Acute First Myocardial infarction - 6D,BasePhenotypes/cohort1796894.json
+1796895,[Phenotype Aphril] 009 - Acute First Myocardial infarction - 6D - v2,BasePhenotypes/cohort1796895.json
+1796896,[Phenotype Aphril] 010 - Acute First Myocardial infarction - 6D - no inpt,BasePhenotypes/cohort1796896.json

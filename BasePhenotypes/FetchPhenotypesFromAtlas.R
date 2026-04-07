@@ -12,7 +12,8 @@ cohortIds <- c(1796887,
                1796892,
                1796893,
                1796894,
-               1796895)
+               1796895,
+               1796896)
 
 cohortId = cohortIds[1]
 cohortRef <- list()
