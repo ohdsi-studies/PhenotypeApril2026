@@ -21,6 +21,7 @@ cohortDatabaseSchema <- "scratch.scratch_mschuemi"
 cohortTable <- "phenotype_april_cohort"
 referenceCohortDatabaseSchema <- "scratch.scratch_all"
 referenceCohortTable <- "reference_cohort_optum_extended_dod_v3787"
+referenceCohortId <- 2
 options(sqlRenderTempEmulationSchema = "scratch.scratch_mschuemi")
 
 folder <- "e:/PhenotypeApril2026"
@@ -184,7 +185,7 @@ uploadReferenceCohort(
   connectionDetails = connectionDetails,
   referenceCohortDatabaseSchema = referenceCohortDatabaseSchema,
   referenceCohortTableNames = createReferenceCohortTableNames(referenceCohortTable),
-  referenceCohortDefinitionId = 2,
+  referenceCohortDefinitionId = referenceCohortId,
   createReferenceCohortTables = FALSE,
   reviews = llmReviewsHsc
 )
